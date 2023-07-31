@@ -6,6 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /* navbar */
 .section-padding {
     padding: 100px 0;
@@ -322,6 +323,7 @@ html {
 .img-area img {
     width: 100%;
 }
+
 /*equipe pedagogica*/
 .single-testi {
     text-align: center;
@@ -435,7 +437,7 @@ html {
     }
 
     .navbar-toggler-icon i.fa {
-           color: #fff;
+        color: #fff;
     }
 
     .slider-text {
@@ -461,11 +463,49 @@ html {
 
     .single-testi {
         margin-bottom: 15px;
-
     }
+
+    .section-header {
+        margin-top: -350px;
+    }
+
+    .about-img {
+        margin-top: -150px;
+    }
+
+    .single-stats p {
+        font-size: 20px;
+    }
+
+    .single-award {
+        margin-left: -150px;
+    }
+
+    .single-award h2 {
+        text-align: center;
+        margin-left: 150px;
+        font-size: 35px;
+        margin-top: 15px;
+    }
+
+    .single-award a {
+        margin-left: 150px;
+        font-size: 35px;
+    }
+
+    .footer-social a {
+        margin-left: -8px;
+    }
+
+    .maps {
+        width: 180px;
+        padding-top: 65px;
+    }
+
 }
 
 @media only screen and (max-width:767px) {
+       
     .section-header h2 {
         font-size: 22px;
         font-weight: bold;
@@ -526,5 +566,32 @@ html {
     .single-testi {
         padding: 15px 10px;
         margin-bottom: 15px;
+    }
+
+    .footer-social a{
+        font-size: 50px;
+        padding-left: 50px;
+        margin-left: 20px;
+    }
+
+    .single-footer h4 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .single-footer p {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .single-footer li {
+        text-align: center;
+        font-size: 20px;
+    }
+    .maps {
+        margin-top: 15px;
+        width: 730px;
+        margin: 5px 5px;
+        align-items: center;
     }
 }
