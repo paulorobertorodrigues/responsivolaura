@@ -443,6 +443,11 @@ html {
     color: #fafafa;
 }
 
+.tab-pane img {
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+}
+
 /*responsivo css*/
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
@@ -522,9 +527,21 @@ html {
 @media only screen and (max-width:767px) {
        
     .section-header h2 {
+        
         font-size: 22px;
         font-weight: bold;
     }
+    .section-header h1 {
+        margin-top: -425px;
+        font-size: 30px;
+    }
+
+    .testimonial-area h1 {
+        margin-top: -50px;
+        font-size: 40px;
+        color: #fafafa;
+    }
+   
 
     .navbar-toggler-icon i.fa {
         color: #fff;
@@ -557,6 +574,7 @@ html {
     }
 
     .about-img {
+        margin-top: -225px;
         padding-right: 0;
     }
 
@@ -567,6 +585,25 @@ html {
     .single-stats h2 {
         font-size: 30px;
     }
+
+
+    .award-area iframe{
+        margin-left: -5px;
+        margin-bottom: 30px;
+        width: 380px;
+        height: 350px;
+    }
+
+
+    .tab-pane {
+       margin-left: -50px;
+       margin-right: -50px;
+    }
+    .tab-pane img{
+        margin-left: -40px;
+        margin-top: 20px;
+    }
+
 
     .single-award h2 {
         font-size: 18px;
@@ -584,8 +621,8 @@ html {
     }
 
     .footer-social a{
-        font-size: 50px;
-        padding-left: 50px;
+        font-size: 40px;
+        padding-left: 0px;
         margin-left: 20px;
     }
 
@@ -605,8 +642,7 @@ html {
     }
     .maps {
         margin-top: 15px;
-        width: 730px;
-        margin: 5px 5px;
-        align-items: center;
+        width: 350px;
+        margin-left: 10px;
     }
 }
